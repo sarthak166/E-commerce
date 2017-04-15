@@ -1,0 +1,52 @@
+@charset "utf-8";
+.main {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.header {
+	float: left;
+	height: 100px;
+	width: 100%;
+	border: 2px solid red;
+	border-radius:10px;
+	text-align:center;
+	font-size:50px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	color:#009;
+}
+.menu {
+	float: left;
+	width: 100%;
+	margin-top: 2px;
+	border: 2px solid red;
+	border-radius:10px;
+}
+.menu li{list-style:none; float:left; width:25%}
+a{text-decoration:none; color:#060; font-size:20px; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif}
+.container {
+	float: left;
+	width: 100%;
+	border: 2px solid red;
+	border-radius:10px;
+	margin-top: 2px;
+}
+.left {
+	float: left;
+	width: 20%;
+	border: 2px solid red;
+	border-radius:10px;
+	margin-top: 2px;
+	margin-left: 2px;
+	margin-bottom:2px;
+}
+.right {
+	float: right;
+	width: 76%;
+	border: 2px solid red;
+	border-radius:10px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+}/* CSS Document */
+
